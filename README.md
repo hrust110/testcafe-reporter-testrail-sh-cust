@@ -17,9 +17,13 @@ npm install testcafe-reporter-testrail-sh-cust
 
 ```
 TestCases should have the TestRail case ids present in the test meta in the format {testRailCaseId: 'C12345'}
+```
 test.meta({testRailCaseId: 'C239234'})
+
 ```
 The reporter requires 3 environment variables to be present
+```
+
 TESTRAIL_HOST: https://vinay.testrail.com
 TESTRAIL_USERNAME: username
 TESTRAIL_APIKEY: password or api key
