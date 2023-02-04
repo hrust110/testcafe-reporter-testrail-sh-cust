@@ -23,11 +23,11 @@ test.meta({testRailCaseId: 'C239234'})
 ```
 The reporter requires 3 environment variables to be present
 ```
-
-TESTRAIL_HOST: https://vinay.testrail.com
+```
+TESTRAIL_HOST: https://some.testrail.com
 TESTRAIL_USERNAME: username
 TESTRAIL_APIKEY: password or api key
-
+```
 When you run tests from the command line, specify the reporter name by using the `--reporter` option:
 
 ```
